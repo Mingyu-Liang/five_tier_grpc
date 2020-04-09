@@ -6,6 +6,10 @@
 
 ### Docker Compose
 
+## Topology
+
+![topology](./topology.jpg)
+
 ## Usage
 
 ```
