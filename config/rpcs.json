@@ -1,0 +1,93 @@
+{
+  "rpc_0": {
+    "client": "nginx", 
+    "distribution_type": "log_normal", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 0, 
+    "rpc_name": "rpc_0", 
+    "server": "service_0"
+  }, 
+  "rpc_1": {
+    "client": "service_0", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 1, 
+    "rpc_name": "rpc_1", 
+    "server": "service_1"
+  }, 
+  "rpc_2": {
+    "client": "service_0", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 2, 
+    "rpc_name": "rpc_2", 
+    "server": "service_2"
+  }, 
+  "rpc_3": {
+    "client": "service_1", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 3, 
+    "rpc_name": "rpc_3", 
+    "server": "service_3"
+  }, 
+  "rpc_4": {
+    "client": "service_3", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 4, 
+    "rpc_name": "rpc_4", 
+    "server": "service_4"
+  }, 
+  "rpc_5": {
+    "client": "service_4", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 5, 
+    "rpc_name": "rpc_5", 
+    "server": "service_5"
+  }, 
+  "rpc_6": {
+    "client": "service_2", 
+    "distribution_type": "const", 
+    "post_time_mean": 0, 
+    "post_time_std": 300, 
+    "pre_time_mean": 0, 
+    "pre_time_std": 200, 
+    "proc_time_mean": 1000, 
+    "proc_time_std": 0, 
+    "rpc_id": 6, 
+    "rpc_name": "rpc_6", 
+    "server": "service_6"
+  }
+}

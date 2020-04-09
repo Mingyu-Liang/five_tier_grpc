@@ -1,0 +1,7 @@
+add_subdirectory(service_0)
+add_subdirectory(service_1)
+add_subdirectory(service_2)
+add_subdirectory(service_3)
+add_subdirectory(service_4)
+add_subdirectory(service_5)
+add_subdirectory(service_6)
